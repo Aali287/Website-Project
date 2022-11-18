@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Code+Pro&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0 20px 20px 20px;
+    margin: 0%
+    border: 5px solid black;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 7px;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #756458;
+    font-size: 25px;
+}
+
+.nav-links a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+body {
+    background-color: #faf6f5;
+    font-size: 20px;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+p{
+    color: black;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #756458;
+    color: white;
+    font-size: 15px;
+  }
+  .footer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  }

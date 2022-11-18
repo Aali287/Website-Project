@@ -1,0 +1,60 @@
+<link rel="stylesheet" href="style.css" />
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Code+Pro&display=swap');
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 3px solid white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 7px;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-links a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #756458;
+    color: white;
+    font-size: 15px;
+  }
+  .header {
+    color: black;
+    text-align: center;
+    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #756458;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+  }
+  .button {
+    background-color: #faf6f5;
+    border: none;
+    color: #756458;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+  }
